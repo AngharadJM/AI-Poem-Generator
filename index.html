@@ -7,39 +7,43 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the AI Poem Generator</h1>
-    </header>
+    <container>
+      <header>
+        <h1>Welcome to the AI Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter topic for the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-        <div>
-          The poem will go here
-          <br />
-          The poem will go here
-        </div>
-      </form>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter topic for the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+          <div class="poem">
+            The poem will go here
+            <br />
+            The poem will go here
+          </div>
+        
+      </main>
 
-    <footer>
-      This AI project was coded by Angharad Wilkie and is open-sourced
-      <a href="https://github.com/" target="_blank">on GitHub</a>
-      and is hosted
-      <a
-        href="https://app.netlify.com/projects/aipoemgeneratorsc/overview"
-        target="_blank"
-      >
-        on Netlify</a
-      >
-    </footer>
+      <footer>
+        This AI project was coded by Angharad Wilkie and is open-sourced
+        <a href="https://github.com/" target="_blank">on GitHub</a>
+        and is hosted
+        <a
+          href="https://app.netlify.com/projects/aipoemgeneratorsc/overview"
+          target="_blank"
+        >
+          on Netlify</a
+        >
+      </footer>
+    </container>
     <script src="src/index.js"></script>
   </body>
 </html>
